@@ -1,0 +1,330 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+body {
+    background-color: black;
+  }
+  .kotak1 {
+    background-color: gold;
+    width: 90px;
+    height: 40px;
+      text-align:center;
+    line-height: 40px;
+    float: right
+  }
+  .kotak1 a{
+    color: black;
+    text-decoration: wavy;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+  }
+  .kotak2 {
+    background-color: white;
+    width: 90px;
+    height: 40px;
+      text-align:center;
+    line-height: 40px;
+    float: right;
+  }
+  .kotak2 a{
+    color: black;
+    text-decoration: wavy;
+    font-family: trebuchet ms;
+    font-weight: 700;
+    font-size: 15px
+  }
+  .kotak3 {
+    background-color: gold;
+    width: 90px;
+    height: 40px;
+      text-align:center;
+    line-height: 40px;
+    float: right
+  }
+  .kotak3 a{
+    color: black;
+    text-decoration: wavy;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+  }
+  .title {
+    float: left;
+    margin-left: 10px;
+    margin-top: 10px;
+    font-family: trebuchet ms;
+    font-weight: 700;
+    color: white;
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+.work {
+    color: gold;
+    clear: left;
+    background-image: url(x.jpg);
+    height: 500px;
+    background-size: cover;
+    background-position: 0px;
+}
+.work .niche {
+    margin-left: 200px;
+    padding-top: 100px;
+    font-size: 100px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 700;
+    text-shadow: 2px 2px 4px grey;
+}
+.work .cff {
+    margin-left: 200px;
+    padding-top: 25px;
+    font-size: 100px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 700;
+    text-shadow: 2px 2px 4px grey;
+
+}
+.work .cff .v{
+    color: white;
+}
+.work .niche .y{
+    color: white;
+    background-color: gold;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-shadow: 0 0 20px black;
+}
+.tellus {
+    background-image: url(t.jpg);
+    height: 500px;
+    background-size: auto;
+    background-position: -10px;
+}
+.tellus .gamb img{
+    margin-top: -120px;
+    margin-left: 25px;
+    float: left;
+}
+.tellus .teks1 {
+    width: 500px;
+    height: 400px;
+    background-color: black;
+    float: right;
+    color: white;
+    text-align: center;
+    line-height: 25px;
+    margin-top: 25px;
+    clear: right;
+    margin-right: 0px;
+}
+.tellus .teks1 .tes{
+    color: white;
+    margin-top: 150px;
+    margin-left: 25px;
+    margin-right: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+}
+.tellus .teks1 .tes .duh{
+    color: black;
+    background-color: gold;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.tellus .teks2 {
+    margin-top: 20px;
+    width: 50px;
+    float: right;
+    margin-right: 260px;
+}
+.tellus .teks2 .tes2 {
+    font-size: 100px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 900;
+    text-shadow: 2px 2px 4px white;
+}
+.tellus .teks2 .tes2 .yo {
+    background-color: white;
+    color:  gold;
+    padding-left:5px;
+    padding-right: 10px;
+}
+.gallery {
+    background-color: black;
+    width: 800px;
+    height: 500px;
+}
+.gallery .gamb2 img{
+    margin-left: 900px;
+    margin-top: -200px;
+    float: left;
+    clear: left;
+}
+.project {
+    color: gold;
+    margin-left: 25px;
+    margin-top: auto;
+    height: 25px;
+    width: 25px;
+    font-size: 60px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 700;
+    clear: left;
+}
+.gallery .project1 {
+    height: 450px;
+    width: 250px;
+    background-image:url(urs.jpg);
+    background-size: contain;
+    padding-left: 25px;
+    margin-left: 25px;
+    margin-right: -100px;
+    margin-top: -260px;
+    float: right;
+    clear: left;
+}
+.gallery .project2 {
+    height: 450px;
+    width: 250px;
+    background-image: url(sulla.jpg);
+    background-size: contain;
+    padding-left: 20px;
+    margin-left: 25px;
+    margin-top: -260px;
+    float: right;
+}
+.me {
+    background-color: white;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.gallery .project1 .word1 {
+  background-color: white;
+  text-align: center;
+  line-height: 50px;
+  width: 150px;
+  height: 50px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: 700;
+  margin-top: 240px;
+  margin-left: 35px;
+  box-shadow: 2px 4px 2px black;
+}
+.gallery .project1 .word1 a{
+  color: black;
+  text-decoration: wavy;
+}
+.gallery .project2 .word2 {
+  background-color: white;
+  text-align: center;
+  line-height: 50px;
+  width: 150px;
+  height: 50px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: 700;
+  margin-top: 240px;
+  margin-left: 35px;
+  box-shadow: 2px 4px 4px black;
+}
+.gallery .project2 .word2 a{
+  color: black;
+  text-decoration: wavy;
+}
+.contacts {
+  width:1351px;
+  height: 500px;
+  background-image: url(t.jpg);
+  background-size: cover;
+}
+.contacts .info {
+  background-color:white;
+  background-color: white;
+  text-align: center;
+  line-height: 50px;
+  width: 150px;
+  height: 50px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: 700;
+  margin-left: 350px;
+  margin-top: -10px;
+  box-shadow: 2px 4px 4px black;
+}
+.contacts .contactus {
+  float: left;
+  width: 80px;
+  height: 300px;
+  text-align: justify;
+  padding-left: 105px;
+  padding-top: 105px;
+  font-size: 75px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: 700;
+  line-height: 95px;
+  text-shadow: 2px 4px 2px black;
+}
+.contactus .yo {
+  background-color: white;
+  width: 355px;
+  padding-left: 5px;
+  color: gold;
+}
+.contactus .yi {
+  background-color: white;
+  width: 100px;
+  padding-left: 5px;
+  color: gold;
+  margin-top: 10px;
+}
+.contacts .ig{
+  color: white;
+  float:right;
+}
+.contacts .twt {
+  color: white;
+  float: right;
+}
+.contacts .info .teds a{
+  color: black;
+  text-decoration:wavy ;
+}
